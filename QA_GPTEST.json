@@ -1,0 +1,22 @@
+{
+  "id": 39,
+  "name": "QA_GPTEST",
+  "documentation": null,
+  "isMultiInstance": false,
+  "isSubSchedule": false,
+  "containsSubSchedule": null,
+  "parent": [],
+  "hasJobLevelFrequencies": true,
+  "useMasterHolidays": null,
+  "conflictsWithOtherDays": false,
+  "associations": {
+    "masterJobs": [
+      {
+        "scheduleName": "QA_GPTEST",
+        "jobName": "JOB001"
+      }
+    ],
+    "dailyJobs": [],
+    "dailySchedules": []
+  }
+}
