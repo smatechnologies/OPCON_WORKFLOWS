@@ -1,0 +1,30 @@
+{
+  "id": 41,
+  "name": "APP3SCHED01",
+  "documentation": null,
+  "isMultiInstance": false,
+  "isSubSchedule": false,
+  "containsSubSchedule": null,
+  "parent": [],
+  "hasJobLevelFrequencies": true,
+  "useMasterHolidays": null,
+  "conflictsWithOtherDays": false,
+  "associations": {
+    "masterJobs": [
+      {
+        "scheduleName": "APP3SCHED01",
+        "jobName": "JOB001"
+      },
+      {
+        "scheduleName": "APP3SCHED01",
+        "jobName": "JOB002"
+      },
+      {
+        "scheduleName": "APP3SCHED01",
+        "jobName": "JOB003"
+      }
+    ],
+    "dailyJobs": [],
+    "dailySchedules": []
+  }
+}
